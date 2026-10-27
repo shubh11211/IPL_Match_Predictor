@@ -20,7 +20,7 @@ teams = [
 
 # 1. Use relative pathing for the model file
 try:
-    pipe = pickle.load(open('/pipe.pkl', 'rb'))
+    pipe = pickle.load(open('pipe.pkl', 'rb'))
 except FileNotFoundError:
     st.error("Model file 'pipe.pkl' not found. Please ensure it's in the same directory.")
     st.stop()
