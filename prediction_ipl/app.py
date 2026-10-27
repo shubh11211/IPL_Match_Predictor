@@ -17,7 +17,7 @@ teams=['Sunrisers Hyderabad',
  'Rajasthan Royals',
  'Delhi Capitals']
 
-pipe=pickle.load(open('prediction_ipl/pipe.pkl','rb'))
+pipe=pickle.load(open('/pipe.pkl','rb'))
 st.title('IPL match predictor')
 st.image('prediction_ipl/ipl.jpg')
 col1,col2=st.columns(2)
